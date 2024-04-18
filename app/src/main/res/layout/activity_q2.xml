@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C3D6B3"
+    tools:context=".q2">
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/txt_title2"
+            style="@style/titles"
+            android:layout_marginBottom="30dp"
+            android:text="Question#2" />
+
+        <TextView
+            android:id="@+id/txt_q2"
+            android:text="choose to complete"
+            style="@style/subtitles"/>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:layout_marginBottom="20dp"
+            android:background="#026C62"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="126dp"
+                android:layout_height="48dp"
+                android:text="I'm really ---- to see you!"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <RadioGroup
+                android:id="@+id/rdg1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/rd_1t"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="pleased"
+                    android:textColor="#FFFFFF" />
+
+                <RadioButton
+                    android:id="@+id/rd_1f"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="upset"
+                    android:textColor="#FFFFFF" />
+
+            </RadioGroup>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:layout_marginBottom="20dp"
+            android:background="#026C62"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="132dp"
+                android:layout_height="47dp"
+                android:text="i miss my friend , I'vent seen him for ----"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <RadioGroup
+                android:id="@+id/rdg2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/rd_2f"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="sure   "
+                    android:textColor="#FFFFFF" />
+
+                <RadioButton
+                    android:id="@+id/rd_2t"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ages      "
+                    android:textColor="#FFFFFF" />
+
+            </RadioGroup>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:layout_marginBottom="20dp"
+            android:background="#026C62"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="151dp"
+                android:layout_height="38dp"
+                android:text="In japan we ----"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <RadioGroup
+                android:id="@+id/rdg3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/rd_3t"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="bow"
+                    android:textColor="#FFFFFF" />
+
+                <RadioButton
+                    android:id="@+id/rd_3f"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="shake hands"
+                    android:textColor="#FFFFFF" />
+
+            </RadioGroup>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:layout_marginBottom="20dp"
+            android:background="#026C62"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="148dp"
+                android:layout_height="48dp"
+                android:text="I'ts ---- to understand body language"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <RadioGroup
+                android:id="@+id/rdg4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/rd_4t"
+                    android:layout_width="117dp"
+                    android:layout_height="wrap_content"
+                    android:text="important"
+                    android:textColor="#FFFFFF" />
+
+                <RadioButton
+                    android:id="@+id/rd_4f"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="method"
+                    android:textColor="#FFFFFF" />
+
+            </RadioGroup>
+
+        </TableRow>
+
+        <Button
+            android:id="@+id/bt_finish2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/buttons"
+            android:text="finish" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="buttons">
+        <item name="android:backgroundTint">#009688</item>
+        <item name="android:fontFamily">@font/amaranth_italic</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColorLink">#4CAF50</item>
+    </style>
+
+    <style name="titles">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/adamina</item>
+        <item name="android:textColor">#026C62</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="subtitles">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">30dp</item>
+        <item name="android:fontFamily">@font/adamina</item>
+        <item name="android:textColor">#364947</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+</resources>

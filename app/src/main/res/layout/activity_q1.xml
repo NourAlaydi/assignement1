@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C3D6B3"
+    tools:context=".q1">
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/txt_title1"
+            style="@style/titles"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="70dp"
+            android:text="Question#1" />
+
+        <TextView
+            android:id="@+id/textView9"
+            style="@style/subtitles"
+            android:text="check the correct synanoum" />
+
+        <TableRow
+            android:id="@+id/tr_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="#066E64"
+            android:backgroundTint="#026C62"
+            android:gravity="center|center_vertical">
+
+            <TextView
+                android:id="@+id/txt_maybe"
+                android:layout_width="152dp"
+                android:layout_height="wrap_content"
+                android:text="may be = "
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/chk_1t"
+                android:layout_width="121dp"
+                android:layout_height="wrap_content"
+                android:text="perhaps       "
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/chk_1f"
+                android:layout_width="103dp"
+                android:layout_height="wrap_content"
+                android:text="sure"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tr_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="#026C62"
+            android:gravity="center|center_vertical">
+
+            <TextView
+                android:id="@+id/txt_bored"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="bored =       "
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/chk_2f"
+                android:layout_width="98dp"
+                android:layout_height="wrap_content"
+                android:text="happy         "
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/chk_2t"
+                android:layout_width="169dp"
+                android:layout_height="wrap_content"
+                android:text="disinterested"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tr_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="#026C62"
+            android:gravity="center|center_vertical">
+
+            <TextView
+                android:id="@+id/txt_forages"
+                android:layout_width="118dp"
+                android:layout_height="wrap_content"
+                android:text="for ages = "
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/chk_3t"
+                android:layout_width="166dp"
+                android:layout_height="wrap_content"
+                android:text="for long time  "
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/chk_3f"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="upset"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <!-- TableRow 4 -->
+        <TableRow
+            android:id="@+id/tr_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="#026C62"
+            android:gravity="center|center_vertical">
+
+            <TextView
+                android:id="@+id/txt_love"
+                android:layout_width="133dp"
+                android:layout_height="wrap_content"
+                android:text="love ="
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/chk_4t"
+                android:layout_width="153dp"
+                android:layout_height="wrap_content"
+                android:text="like"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/chk_4f"
+                android:layout_width="93dp"
+                android:layout_height="wrap_content"
+                android:text="bow"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <Button
+            android:id="@+id/bt_finish1"
+            style="@style/buttons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Finish" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
